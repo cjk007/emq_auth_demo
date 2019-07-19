@@ -1,0 +1,7 @@
+{application,emq_auth_demo,
+             [{description,"EMQ X Plugin Template"},
+              {vsn,"git"},
+              {modules,[]},
+              {registered,[emq_auth_demo_sup]},
+              {applications,[kernel,stdlib]},
+              {mod,{emq_auth_demo_app,[]}}]}.
